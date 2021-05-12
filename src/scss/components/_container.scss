@@ -1,0 +1,19 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top, #209cff 100%, #68e0cf 200%);
+  border: 2px black dotted;
+}
+
+.container {
+  height: 90vh;
+  margin: 1vw auto;
+  overflow: hidden;
+  width: 90vw;
+  border: 2px green dotted;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
