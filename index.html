@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <ul>
+          <li>
+            <div><h1>Password Generator</h1></div>
+          </li>
+          <li class="range__slider">
+            <div id="password" class="range__slider"></div>
+          </li>
+          <div class="length">Length:<span class="value">16</span></div>
+          <li class="range__slider">
+            <input type="range" min="4" max="32" step="1" value="16" id="num" />
+          </li>
+          <li>
+            <div class="setting">
+              <input type="checkbox" id="number" checked />
+              <label for="number">Include Numbers</label>
+            </div>
+          </li>
+          <li>
+            <div class="setting">
+              <input type="checkbox" id="lowercase" checked />
+              <label for="lowercase">Include Lowercase</label>
+            </div>
+          </li>
+          <li>
+            <div class="setting">
+              <input type="checkbox" id="uppercase" checked />
+              <label for="uppercase">Include Uppercase</label>
+            </div>
+          </li>
+          <li>
+            <div class="setting">
+              <input type="checkbox" id="symbol" />
+              <label for="symbol">Include Symbols</label>
+            </div>
+          </li>
+          <!-- <li><button class="btn generate" id="char">Without special Character</button></li> -->
+          <li>
+            <button class="btn generate" id="btn">Generator Password</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <script src="./index.js"></script>
+  </body>
+</html>
