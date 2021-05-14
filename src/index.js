@@ -17,7 +17,7 @@ let characters = "";
 // "0123456789ABCDEFGHIKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz";
 
 const numbers = "0123456789";
-const symbols = "!@#$%^&*()_=+*/€><{}[]:;.,";
+const symbols = '!@#$%^&*()_=+*/€><{}[]:;.,"';
 const lowerCase = "abcdefghiklmnopqrstuvwxyz";
 const upperCase = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
 
